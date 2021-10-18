@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
   <title>Air Asia</title>
 </head>
 
@@ -17,7 +21,7 @@
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__item">
-              <a href="" class="menu__link">Главная</a>
+            <a href="" class="menu__link">Главная</a>
           </li>
           <li class="menu__item">
             <a href="" class="menu__link">Услуги</a>
@@ -43,68 +47,72 @@
           <h2 class="hot-tours__title">Горящие туры</h2>
           <img src="" alt="Огонь" class="hot-tours__icon">
         </div>
-        <div class="hot-tours__country">
-          <img src="" alt="Таиланд" class="hot-tours__picture">
-          <h3 class="hot-tours__title">Таиланд</h3>
-          <div class="hot-tours__duration">
-            <img src="" alt="Календарь" class="hot-tours__duration-icon">
-            <p class="hot-tours__duration-nights">7- 12 ночей </p>
-            <img src="" alt="Завтрак" class="hot-tours__duration-icon">
-            <p class="hot-tours__duration-breakfast">Завтраки</p>
-          </div>
-          <p class="hot-tours__description">
-            Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
-            участия.
-          </p>
-          <button class="hot-tours__button">Смотреть</button>
-        </div>
-        <div class="hot-tours__country">
-          <img src="" alt="Бали" class="hot-tours__picture">
-          <h3 class="hot-tours__title">Бали</h3>
-          <div class="hot-tours__duration">
-            <img src="" alt="Календарь" class="hot-tours__duration-icon">
-            <p class="hot-tours__duration-nights">7- 12 ночей </p>
-            <img src="" alt="Завтрак" class="hot-tours__duration-icon">
-            <p class="hot-tours__duration-breakfast">Завтраки</p>
-          </div>
-          <p class="hot-tours__description">
-            Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
-            участия.
-          </p>
-          <button class="hot-tours__button">Смотреть</button>
-        </div>
-        <div class="hot-tours__country">
-          <img src="" alt="Индонезия" class="hot-tours__picture">
-          <h3 class="hot-tours__title">Индонезия</h3>
-          <div class="hot-tours__duration">
-            <img src="" alt="Календарь" class="hot-tours__duration-icon">
-            <p class="hot-tours__duration-nights">7- 12 ночей </p>
-            <img src="" alt="Завтрак" class="hot-tours__duration-icon">
-            <p class="hot-tours__duration-breakfast">Завтраки</p>
-          </div>
-          <p class="hot-tours__description">
-            Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
-            участия.
-          </p>
-          <button class="hot-tours__button">Смотреть</button>
-        </div>
+        <ul class="hot-tours__list">
+          <li class="hot-tours__country">
+            <img src="" alt="Таиланд" class="hot-tours__picture">
+            <h3 class="hot-tours__title">Таиланд</h3>
+            <div class="hot-tours__offer">
+              <img src="" alt="Календарь" class="hot-tours__offer-icon">
+              <p class="hot-tours__offer-text">7- 12 ночей </p>
+              <img src="" alt="Завтрак" class="hot-tours__offer-icon">
+              <p class="hot-tours__offer-text">Завтраки</p>
+            </div>
+            <p class="hot-tours__description">
+              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
+              участия.
+            </p>
+            <button class="hot-tours__button">Смотреть</button>
+          </li>
+          <li class="hot-tours__country">
+            <img src="" alt="Бали" class="hot-tours__picture">
+            <h3 class="hot-tours__title">Бали</h3>
+            <div class="hot-tours__offer">
+              <img src="" alt="Календарь" class="hot-tours__offer-icon">
+              <p class="hot-tours__offer-text">7- 12 ночей </p>
+              <img src="" alt="Завтрак" class="hot-tours__offer-icon">
+              <p class="hot-tours__offer-text">Завтраки</p>
+            </div>
+            <p class="hot-tours__description">
+              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
+              участия.
+            </p>
+            <button class="hot-tours__button">Смотреть</button>
+          </li>
+          <li class="hot-tours__country">
+            <img src="" alt="Индонезия" class="hot-tours__picture">
+            <h3 class="hot-tours__title">Индонезия</h3>
+            <div class="hot-tours__offer">
+              <img src="" alt="Календарь" class="hot-tours__offer-icon">
+              <p class="hot-tours__offer-text">7- 12 ночей </p>
+              <img src="" alt="Завтрак" class="hot-tours__offer-icon">
+              <p class="hot-tours__offer-text">Завтраки</p>
+            </div>
+            <p class="hot-tours__description">
+              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового
+              участия.
+            </p>
+            <button class="hot-tours__button">Смотреть</button>
+          </li>
+        </ul>
       </div>
       <div class="news">
-        <div class="news__news-stock">
-          <h2 class="news__news-stock-title">Новости и акции</h2>
+        <div class="news__stock">
+          <h2 class="news__stock-title">Новости и акции</h2>
         </div>
-        <div class="news__image">
-          <img src="" alt="Дешевые путевки на Новый Год" class="news__image-elem">
-          <p class="news__image-text">Декабрь 2019</p>
-          <h3 class="news__image-title">Дешевые путевки на Новый Год!</h3>
-          <div class="news__image-description">Проведи новый год в Тайланде</div>
-        </div>
-        <div class="news__image">
-          <img src="" alt="Дешевые путевки на Новый Год" class="news__image-elem">
-          <div class="news__image-text">Декабрь 2019</div>
-          <h3 class="news__image-title">Акция для серфенгистов!</h3>
-          <p class="news__image-description">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов.
-            Удачного пути!</p>
+        <div class="news-list">
+          <div class="news__item">
+            <img src="" alt="Дешевые путевки на Новый Год" class="news__image">
+            <p class="news__text">Декабрь 2019</p>
+            <h3 class="news__title">Дешевые путевки на Новый Год!</h3>
+            <div class="news__description">Проведи новый год в Тайланде</div>
+          </div>
+          <div class="news__item">
+            <img src="" alt="Дешевые путевки на Новый Год" class="news__image">
+            <div class="news__text">Декабрь 2019</div>
+            <h3 class="news__title">Акция для серфенгистов!</h3>
+            <p class="news__description">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов.
+              Удачного пути!</p>
+          </div>
         </div>
         <div class="paginator">
           <div class="paginator__display">Страница 1 из 7</div>
@@ -122,11 +130,11 @@
         </div>
       </div>
       <div class="about">
-        <div class="about__image">
-          <img src="" alt="Горы и мотоцикл" class="about__picture1">
+        <div class="about__cover">
+          <img src="" alt="Горы и мотоцикл" class="about__cover-picture">
         </div>
         <div class="about__image-description">
-          <img src="" alt="Горы и озеро" class="about__picture2">
+          <img src="" alt="Горы и озеро" class="about__picture">
           <h2 class="about__title">О нас</h2>
           <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику,
             вебмастеру сгенерировать несколько абзацев более менее осмысленного
@@ -145,13 +153,13 @@
         <ul class="menu__list">
           <li class="menu__item">
             <a href="" class="menu__link">Главная</a>
-        </li>
-        <li class="menu__item">
-          <a href="" class="menu__link">Услуги</a>
-        </li>
-        <li class="menu__item">
-          <a href="" class="menu__link">Отзывы</a>
-        </li>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a href="" class="menu__link">Отзывы</a>
+          </li>
         </ul>
       </nav>
       <nav class="social-menu">
@@ -164,17 +172,17 @@
           <li class="social-menu__icon">
             <a href="" class="social-menu__link"><img src="" alt="Вк" class="social-menu__img">
             </a>
-            </li>
+          </li>
           <li class="social-menu__icon">
             <a href="" class="social-menu__link">
               <img src="" alt="Фейсбук" class="social-menu__img">
             </a>
-            </li>
+          </li>
           <li class="social-menu__icon">
             <a href="" class="social-menu__link">
-              <img src="" alt="Инстаграм" class="social-menu__img">    
+              <img src="" alt="Инстаграм" class="social-menu__img">
             </a>
-            </li>
+          </li>
         </ul>
       </nav>
       <address class="contacts">
@@ -184,4 +192,5 @@
     </footer>
   </div>
 </body>
+
 </html>
