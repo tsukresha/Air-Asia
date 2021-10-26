@@ -1,11 +1,12 @@
 body {
   font-family: 'Open Sans', Helvetica sans-serif;
-  background: #2C667C;
+  background: #001821;
   color: #fff;
   font-size: 16px;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 a {
   color:inherit;
@@ -35,7 +36,7 @@ p {
 /* hero section */
 
 .main-page-wrapper {
-  background: url("./img/elephant.jpg") center top no-repeat, url("./img/man.png") center bottom 249px no-repeat;
+  background: url("./img/elephant.jpg") center top no-repeat, url("./img/man.png") center bottom 240px no-repeat;
 }
 .container{
   margin: 0 auto;
@@ -89,6 +90,9 @@ p {
   text-decoration: underline;
   margin-top: -7px;
 }
+.hero {
+  margin-bottom: 245px;
+}
 .hero__text-section {
   width: 515px;
   text-align: left;
@@ -113,7 +117,6 @@ p {
   padding: 17px 39px;
   border-radius: 30px;
   display: inline-block;
-  margin-bottom: 245px;
 }
 .btn:hover {
   background: #EB1209;
@@ -145,9 +148,13 @@ p {
  .hot-tours__item:last-child {
    margin-right: 0;
  }
-.hot-tours__header-img {
+ .hot-tours__header {
   min-height: 142px;
   margin-bottom: 11px;
+}
+ .hot-tours__header-img {
+  max-width: 100%;
+  display: block;
 }
 .hot-tours__content {
   padding: 30px 20px; 
@@ -282,6 +289,9 @@ p {
 
 /* about section */
 
+.about-main {
+  margin-bottom: 39px;
+}
 .about::before {
   content:"";
   display: inline-block;
@@ -293,9 +303,8 @@ p {
 }
 .about__desc {
   width: 785px;
-  height: 455px;
   background: url("./img/mountains.jpg") center center/ cover no-repeat;
-  padding: 90px 80px;
+  padding: 82px 80px;
   display: inline-block;
   vertical-align: top;
   margin-left: -140px;
@@ -322,22 +331,22 @@ p {
 /* footer section */
 
 .footer {
-  height: 140px;
+  height: 120px;
   position: relative;
-  margin-top: 12px;
 }
 .footer-container__content{
   border-top: 1px solid #9A9A9A;
+  padding-top: 25px;
 }
 .socials {
-  top: 50px;
-  right: 300px;
+  top: 25px;
+  right: 263px;
   position: absolute;
 }
 .socials__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 .socials__item:last-child {
   margin-right: 0;
@@ -368,8 +377,8 @@ p {
   background-image: url(./img/facebook-hover.png);
 }
 .socials__item--icon--insta .socials__link {
-  background-image: url(./img/telegram.png);
+  background-image: url(./img/insta.png);
 }
 .socials__item--icon--insta .socials__link:hover {
-  background-image: url(./img/telegram-hover.png);
+  background-image: url(./img/insta-hover.png);
 }
