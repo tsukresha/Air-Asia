@@ -43,20 +43,25 @@ p {
   width: 1140px;
 }
 .header {
-  height: 160px;
-  position: relative;
   margin-bottom: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 26px;
+}
+.header__col{
+  display: flex;
+  align-items: center;
+}
+.header__col--align--right {
+  justify-content: flex-end;
 }
 .logo {
   display: block;
-  position: absolute;
-  top: 21px;
-  left: 0;
+  margin-right: 80px;
 }
 .menu {
-  position: absolute;
-  top: 30px;
-  left: 163px;
+  display: flex;
 }
 .menu__link{
   font-size: 14px;
@@ -71,9 +76,6 @@ p {
   margin-right: 0;
 }
 .contacts {
-  position: absolute;
-  top: 19px;
-  right: 0;
   font-style: normal;
   text-align: right;
 }
@@ -94,7 +96,7 @@ p {
   margin-bottom: 245px;
 }
 .hero__text-section {
-  width: 515px;
+  width: 45%;
   text-align: left;
 }
 .hero__title {
@@ -137,13 +139,18 @@ p {
  .section__img {
   width: 21px;
  }
+ .hot-tours {
+   display: flex;
+   justify-content: space-between;
+ }
  .hot-tours__item {
-   min-height: 448px;
-   background: #FFF;
-   border-radius: 5px;
-   display:inline-block;
-   margin-right: 25px;
-   width: 360px;
+  min-height: 448px;
+  background: #FFF;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  width: calc(100% / 3 - 18px);
  }
  .hot-tours__item:last-child {
    margin-right: 0;
@@ -159,6 +166,9 @@ p {
 .hot-tours__content {
   padding: 30px 20px; 
   padding-top: 17px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 .hot-tours__title {
   font-weight: bold;
@@ -173,9 +183,11 @@ p {
 .hot-tours__offer-meal {
   display: inline-block;
 }
+.hot-tours__offers {
+  display: flex;
+  justify-content: space-between;
+}
 .hot-tours__offer-cell {
-  display: inline-block;
-  vertical-align: top;
   margin-right: 28px;
   height: 46px;
 }
@@ -209,7 +221,11 @@ p {
   border-radius: 30px;
   padding: 18px 29px;
   text-transform: uppercase;
-  display: inline-block;
+}
+.hot-tours__btn-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: auto;
 }
 .hot-tours__btn:hover {
   background: #FF0000;
@@ -218,16 +234,19 @@ p {
 
 /* news section */
 
-.news{
+.news {
   margin-bottom: 53px;
+  display: flex;
+  justify-content: space-between;
 }
-.news__item {
-  width: 546px;
-  display: inline-block;
-  vertical-align: top;
+.single-news {
   position: relative;
   border-radius: 5px;
   overflow: hidden;
+}
+.news__item {
+  width: 546px;
+  flex: 1;
   margin-left: 35px;
 }
 .news__item:first-child {
