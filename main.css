@@ -53,11 +53,11 @@ p {
   width: 1140px;
 }
 .header {
-  margin-bottom: 34px;
+  margin-bottom: 147px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 26px;
+  padding-top: 27px;
 }
 .header__col{
   display: flex;
