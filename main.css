@@ -18,10 +18,6 @@ ul {
 ul li {
   list-style: none;
 }
-li {
-  display: inline-block;
-  vertical-align: middle;
-}
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
@@ -57,7 +53,6 @@ p {
   width: 1140px;
 }
 .header {
-  margin-bottom: 147px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,13 +69,15 @@ p {
   display: block;
   margin-right: 80px;
 }
-.menu {
+.menu__item {
+  margin-right: 55px;
+}
+.menu__list {
   display: flex;
 }
 .menu__link{
   font-size: 14px;
   color:#FFF;
-  margin-right: 50px;
   text-decoration: none;
 }
 .menu__link:hover {
@@ -106,6 +103,9 @@ p {
   text-decoration: underline;
   margin-top: -7px;
 }
+.hero__header {
+  margin-bottom: 124px;
+}
 .hero {
   margin-bottom: 245px;
 }
@@ -116,7 +116,7 @@ p {
 .hero__title {
   font-size: 72px;
   font-weight: bold;
-  line-height: 1.3;
+  line-height: 1.35;
   margin-bottom: 30px;
 }
 .hero__subtitle {
@@ -143,12 +143,22 @@ p {
  .section {
    margin-bottom: 127px;
  }
+ .section--theme--hot {
+   margin-bottom: 122px;
+ }
+ .section--theme--news {
+   margin-bottom: 143px;
+ }
+ .section__title-wrap {
+   display: flex;
+   align-items: center;
+   margin-bottom: 50px;
+ }
  .section__title {
   font-weight: bold;
   font-size: 36px;
   display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 50px;
+  margin-right: 16px;
  }
  .section__img {
   width: 21px;
@@ -178,8 +188,7 @@ p {
   display: block;
 }
 .hot-tours__content {
-  padding: 30px 20px; 
-  padding-top: 17px;
+  padding: 21px 58px 22px 24px; 
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -188,28 +197,28 @@ p {
   font-weight: bold;
   font-size: 24px;
   color: #000;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
-.hot-tours__offer-nights {
-  display:inline-block;
+.hot-tours__offer-text {
   margin-left: 0px;
-}
-.hot-tours__offer-meal {
-  display: inline-block;
 }
 .hot-tours__offers {
   display: flex;
   justify-content: space-between;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: 17px;
 }
 .hot-tours__offer-cell {
-  margin-right: 28px;
-  height: 46px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
 }
 .hot-tours__offer-cell:last-child{
   margin-right: 0;
 }
 .hot-tours__icon {
-  width: 25px;
+  width: 26px;
   display:inline-block;
   margin-right: 10px;
 }
@@ -259,9 +268,8 @@ p {
   overflow: hidden;
 }
 .news__item {
-  width: 546px;
   flex: 1;
-  margin-left: 35px;
+  margin-left: 27px;
 }
 .news__item:first-child {
   margin-left: 0;
@@ -278,9 +286,10 @@ p {
   right: 0;
   bottom: 0;
   padding: 26px 32px;
-  min-height: 153px;
+  min-height: 155px;
 }
 .single-news__date {
+  display: block;
   font-size: 14px;
   margin-bottom: 13px;
 }
@@ -336,36 +345,41 @@ p {
 /* about section */
 
 .about {
-  display: flex;
+  position: relative;
+  padding-top: 100px;
 }
 .about-main {
-  margin-bottom: 39px;
+  margin-bottom: 54px;
 }
 .about::before {
   content:"";
   width: 490px;
-  height: 528px;
+  height: 505px;
   background: url("./img/gates.jpg") center center/ cover no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
   border-radius: 5px;
   display: block;
 }
 .about__desc {
   max-width: 785px;
   background: url("./img/mountains.jpg") center center/ cover no-repeat;
-  padding: 82px 80px;
-  margin-left: -140px;
-  margin-top: 119px;
+  padding: 68px 203px 69px 80px;
   border-radius: 5px;
+  margin-left: auto;
+  position: relative;
 }
 .about__title {
   font-weight: bold;
   font-size: 36px;
   color: #000000;
-  margin-bottom: 37px;
+  margin-bottom: 41px;
 }
 .about__desc-text {
   color: #060606;
   margin-bottom: 43px;
+  line-height: 1.65;
 }
 .about__desc-text p {
   margin-bottom: 20px;
@@ -397,7 +411,7 @@ p {
 }
 .footer-container__content{
   border-top: 1px solid #9A9A9A;
-  padding-top: 25px;
+  padding-top: 10px;
 }
 .socials {
   margin-right: 74px;
@@ -462,6 +476,7 @@ p {
   font-weight: bold;
   font-size: 72px;
   line-height: 1; 
+  flex: 0.06;
   
 }
 .breadcrumbs__list {
@@ -498,20 +513,27 @@ p {
 .page-content {
   background: #F2F2F2;
   color: #303030;
-  padding: 58px 0;
+  padding: 98px 0 84px 0;
 }
 .services {
   margin-bottom: 65px;
+}
+.services__item {
+  margin-bottom: 49px;
+}
+.services__item:last-child {
+  margin-bottom: 0;
 }
 .service {
   display: flex;
 }
 .service__img {
-  width: 30%;
+  width: 40.4%;
   margin-right: 5%;
 }
 .service__content {
   flex: 1;
+  padding-top: 10px;
 }
 .service__title {
   font-weight: bold;
@@ -545,7 +567,7 @@ p {
 .inner-section {
   background: #F2F2F2;;
   color: #1A1B1E;
-  padding: 56px 0;
+  padding: 81px 0 77px 0;
 }
 .inner-section--bg-grey {
   background: #F4F5F5;
@@ -553,22 +575,24 @@ p {
 .inner-section__title {
   font-weight: bold;
   font-size: 48px;
-  margin-bottom: 80px;
+  margin-bottom: 53px;
 }
 .partners {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .partners__link {
   text-decoration: none;
   display: flex;
-  width: 200px;
-  height: 100px;
+  max-width: 290px;
+  min-width: 180px;
+  height: 127px;
   align-items:center;
   justify-content: center;
 }
 .partners___item {
-  margin-left: 70px;
+  margin-left: 36px;
 }
 .partners___item:nth-child(4n + 1){
   margin-left: 0;
@@ -580,3 +604,23 @@ p {
  .inner-footer {
    margin-top: auto;
  }
+
+ /* WELCOME PAGE */
+
+ .section-welcome {
+   background: url("./img/bg-welcome.jpg") center no-repeat;
+   display: flex;
+   align-items: stretch;
+ }
+ .welcome__img {
+   margin-top: 420px;
+   max-width: 279px;
+   min-width: 230px;
+ }
+.btn--page--welcome {
+  margin-bottom: 293px;
+}
+.welcome__text {
+  text-align: center;
+  margin-bottom: 53px;
+}

@@ -18,15 +18,15 @@
     <!-- hero section -->
     <section class="hero">
       <div class="container">
-        <header class="header">
+        <header class="header hero__header">
           <div class="header__col">
-            <a href="/" class="logo">
+            <a href="index.html" class="logo">
               <img src="./img/logo.png" alt="Логотип авиакомпании Air Asia" class="logo__pic">
             </a>
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Главная</a>
+                  <a href="index.html" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
                   <a href="services.html" class="menu__link">Услуги</a>
@@ -54,10 +54,12 @@
       </div>
     </section>
     <!-- hot tours section -->
-    <section class="section">
+    <section class="section section--theme--hot">
       <div class="container">
-        <h2 class="section__title">Горящие туры</h2>
-        <img src="./img/flame.png" alt="Огонек" class="section__img">
+        <div class="section__title-wrap">
+          <h2 class="section__title">Горящие туры</h2>
+          <img src="./img/flame.png" alt="Огонек" class="section__img">
+        </div>
         <ul class="hot-tours">
           <li class="hot-tours__item">
             <div class="hot-tours__header">
@@ -68,18 +70,18 @@
               <div class="hot-tours__offers">
                 <div class="hot-tours__offer-cell">
                   <img src="./img/calendar.png" alt="Календарь" class="hot-tours__icon">
-                  <div class="hot-tours__offer-nights">7- 12 ночей</div>
+                  <div class="hot-tours__offer-text">7- 12 ночей</div>
                 </div>
                 <div class="hot-tours__offer-cell">
                   <img src="./img/meal.png" alt="Завтрак" class="hot-tours__icon hot-tours__icon--size--bigger">
-                  <div class="hot-tours__offer-meal">Завтраки</div>
+                  <div class="hot-tours__offer-text">Завтраки</div>
                 </div>
               </div>
               <p class="hot-tours__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
                 значение систем массового участия.</p>
-                <div class="hot-tours__btn-wrapper">
-                  <a href="" class="hot-tours__btn">Смотреть</a>
-                </div>
+              <div class="hot-tours__btn-wrapper">
+                <a href="" class="hot-tours__btn">Смотреть</a>
+              </div>
             </div>
           </li>
           <li class="hot-tours__item">
@@ -91,18 +93,18 @@
               <div class="hot-tours__offers">
                 <div class="hot-tours__offer-cell">
                   <img src="./img/calendar.png" alt="Календарь" class="hot-tours__icon">
-                  <div class="hot-tours__offer-nights">7- 12 ночей</div>
+                  <div class="hot-tours__offer-text">7- 12 ночей</div>
                 </div>
                 <div class="hot-tours__offer-cell">
                   <img src="./img/meal.png" alt="Завтрак" class="hot-tours__icon hot-tours__icon--size--bigger">
-                  <div class="hot-tours__offer-meal">Завтраки</div>
+                  <div class="hot-tours__offer-text">Завтраки</div>
                 </div>
               </div>
               <p class="hot-tours__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
                 значение систем массового участия.</p>
-                <div class="hot-tours__btn-wrapper">
-                  <a href="" class="hot-tours__btn">Смотреть</a>
-                </div>
+              <div class="hot-tours__btn-wrapper">
+                <a href="" class="hot-tours__btn">Смотреть</a>
+              </div>
             </div>
           </li>
           <li class="hot-tours__item">
@@ -114,27 +116,29 @@
               <div class="hot-tours__offers">
                 <div class="hot-tours__offer-cell">
                   <img src="./img/calendar.png" alt="Календарь" class="hot-tours__icon">
-                  <div class="hot-tours__offer-nights">7- 12 ночей</div>
+                  <div class="hot-tours__offer-text">7- 12 ночей</div>
                 </div>
                 <div class="hot-tours__offer-cell">
                   <img src="./img/meal.png" alt="Завтрак" class="hot-tours__icon hot-tours__icon--size--bigger">
-                  <div class="hot-tours__offer-meal">Завтраки</div>
+                  <div class="hot-tours__offer-text">Завтраки</div>
                 </div>
               </div>
               <p class="hot-tours__desc">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
                 значение систем массового участия.</p>
-                <div class="hot-tours__btn-wrapper">
-                  <a href="" class="hot-tours__btn">Смотреть</a>
-                </div>
+              <div class="hot-tours__btn-wrapper">
+                <a href="" class="hot-tours__btn">Смотреть</a>
+              </div>
             </div>
           </li>
         </ul>
       </div>
     </section>
     <!-- news section -->
-    <div class="section">
+    <div class="section section--theme--news">
       <div class="container">
-        <h2 class="section__title">Новости и акции</h2>
+        <div class="section__title-wrap">
+          <h2 class="section__title">Новости и акции</h2>
+        </div>
         <ul class="news">
           <li class="news__item single-news">
             <img src="./img/plain.jpg" alt="Дешевые путевки" class="single-news__cover">
@@ -149,7 +153,8 @@
             <div class="single-news__text-content">
               <time class="single-news__date">Декабрь 2019</time>
               <div class="single-news__title">Акция для серфенгистов!</div>
-              <div class="single-news__desc">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного
+              <div class="single-news__desc">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов.
+                Удачного
                 пути!</div>
             </div>
           </li>
@@ -190,10 +195,10 @@
             <h2 class="about__title">О нас</h2>
             <div class="about__desc-text">
               <p>
-                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру<br>
-                сгенерировать несколько абзацев более менее осмысленного<br>
-                текста рыбы на русском языке, а начинающему оратору<br>
-                отточить навык публичных выступлений в домашних<br>
+                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                сгенерировать несколько абзацев более менее осмысленного
+                текста рыбы на русском языке, а начинающему оратору
+                отточить навык публичных выступлений в домашних
                 условиях.
               </p>
             </div>
@@ -207,16 +212,16 @@
       <div class="container footer-container__content">
         <div class="footer footer-container__section">
           <div class="footer__col">
-            <a href="/" class="logo">
+            <a href="index.html" class="logo">
               <img src="./img/logo.png" alt="Логотип авиакомпании Air Asia" class="logo__pic">
             </a>
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Главная</a>
+                  <a href="index.html" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Услуги</a>
+                  <a href="services.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
                   <a href="#" class="menu__link">Отзывы</a>
@@ -244,7 +249,7 @@
               <a href="tel:+788007003030" class="contacts__phone">8 800 700 30 30</a>
             </address>
           </div>
-          
+
         </div>
       </div>
     </footer>
