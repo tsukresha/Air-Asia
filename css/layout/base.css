@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans', Helvetica sans-serif;
+  background: #001821;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+a {
+  color:inherit;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+p {
+  margin-top: 0;
+}
+* {
+  box-sizing: border-box;
+}
+ body html {
+   height: 100%;
+ }
+ img {
+   display: block;
+   width: 100%;
+ }
+ .wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1200px;
+}
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+.main-page-wrapper {
+  background: url("../../img/elephant.jpg") center top no-repeat, url("../../img/man.png") center bottom 240px no-repeat;
+}
+.page-content {
+  background: #FFF;
+  color: #303030;
+  padding: 98px 0 84px 0;
+}
+.cotainer__welcome {
+  text-align: center;
+}

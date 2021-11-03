@@ -1,0 +1,20 @@
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  max-width: 290px;
+  min-width: 180px;
+  height: 127px;
+  align-items:center;
+  justify-content: center;
+}
+.partners___item {
+  margin-left: 36px;
+}
+.partners___item:nth-child(4n + 1){
+  margin-left: 0;
+}

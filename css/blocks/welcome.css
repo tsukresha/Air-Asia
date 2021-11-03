@@ -1,0 +1,16 @@
+.welcome__logo {
+  display: block;
+  margin-left:440px;
+  position: relative;
+ }
+ .welcome__img {
+   margin-top: 420px;
+   max-width: 279px;
+   min-width: 230px;
+ }
+ .welcome__text {
+  text-align: center;
+  margin-bottom: 46px;
+  margin-left: 21px;
+  font-size: 18px;
+}

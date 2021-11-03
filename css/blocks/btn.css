@@ -1,0 +1,36 @@
+.btn {
+  background: #DA0100;;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 17px 39px;
+  border-radius: 30px;
+  display: inline-block;
+}
+.btn:hover {
+  background: #EB1209;
+  transition: background 0.5s;
+}
+.btn__service {
+  background: #F2F2F2;
+  color: #F5170E;
+  border: solid 1px #F5170E;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 17px 39px;
+  border-radius: 30px;
+  display: inline-block;
+}
+.btn__service:hover {
+  background: #F5170E;
+  color: #FFFFFF;
+  transition: all 0.5s;
+}
+.btn--page--welcome {
+  padding: 17px 57px;
+  margin-left: 23px;
+  margin-bottom: 297px;
+}

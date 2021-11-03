@@ -1,0 +1,21 @@
+.hero__header {
+  margin-bottom: 124px;
+}
+.hero {
+  margin-bottom: 245px;
+}
+.hero__text-section {
+  width: 45%;
+  text-align: left;
+}
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.35;
+  margin-bottom: 30px;
+}
+.hero__subtitle {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 33px;
+}
