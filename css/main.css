@@ -1,4 +1,5 @@
 @import url("./layout/base.css");
+@import url("./blocks/section.css");
 @import url("./blocks/header.css");
 @import url("./blocks/logo.css");
 @import url("./blocks/menu.css");
@@ -14,7 +15,6 @@
 @import url("./blocks/news.css");
 @import url("./blocks/pager.css");
 @import url("./blocks/partners.css");
-@import url("./blocks/section.css");
 @import url("./blocks/services.css");
 @import url("./blocks/socials.css");
 @import url("./blocks/top-line.css");

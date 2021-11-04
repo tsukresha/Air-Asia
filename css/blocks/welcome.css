@@ -1,16 +1,65 @@
-.welcome__logo {
-  display: block;
-  margin-left:440px;
-  position: relative;
- }
- .welcome__img {
+.welcome__container {
+  text-align: center;
+}
+.welcome {
+  background: url("../../img/bg-welcome.jpg") center bottom / cover no-repeat;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.central:before {
+ content:"";
+ min-width: 600px;
+ min-height: 231px;
+ background: url("../../img/shades.png") center center/ cover no-repeat;
+ position: absolute;
+ left: 663px;
+ top: 363px;
+ display: block;
+}
+ .central__logo {
    margin-top: 420px;
    max-width: 279px;
    min-width: 230px;
+   position: relative;
  }
- .welcome__text {
-  text-align: center;
-  margin-bottom: 46px;
-  margin-left: 21px;
-  font-size: 18px;
+ .central__text {
+   margin-bottom: 46px;
+   font-size: 18px;
+}
+.central--asia {
+  /* opacity: 0; */
+  animation: zoom .9s ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom {
+from {
+  transform: scale(.7);
+}
+20% {
+  transform: scale(1.15);
+}
+40% {
+  transform: scale(.9);
+}
+60% {
+  transform: scale(1.1);
+}
+80% {
+  transform: scale(.95);
+}
+to {
+  opacity: 0;
+  transform: scale(1);
+}
 }

@@ -21,19 +21,3 @@
 .section__img {
  width: 21px;
 }
-.section-welcome {
-  background: url("../../img/bg-welcome.jpg") center no-repeat;
-  display: flex;
-  align-items: stretch;
-}
-.section-welcome:before {
- content:"";
- min-width: 600px;
- min-height: 231px;
- background: url("../../img/shades.png") center center/ cover no-repeat;
- position: absolute;
- left: 663px;
- top: 363px;
- display: block;
- /* animation: myAnimation 2s 1; */
-}
