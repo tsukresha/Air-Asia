@@ -1,5 +1,5 @@
 .welcome {
-  background: url("../../img/shades.png") center center / auto no-repeat, 
+  background: url("../../img/shades.png") center bottom 420px / auto no-repeat, 
   url("../../img/bg-welcome.jpg") center bottom / cover no-repeat;
   display: flex;
   position: fixed;
@@ -15,12 +15,6 @@
   flex-direction: column;
   align-items: center;
 }
- .central__logo {
-   margin-top: 420px;
-   max-width: 279px;
-   min-width: 230px;
-   position: relative;
- }
  .central__text {
    margin-bottom: 46px;
    font-size: 18px;

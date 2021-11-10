@@ -13,12 +13,13 @@
   left: 0;
 }
 .dropdown__menu {
-  padding: 22px 19px 15px 19px;
+  padding: 15px 19px 15px 19px;
+  font-size: 13px;
   background: #EDEDED;
   color: #1E1F20;
   position: absolute;
   border-radius: 5px;
-  margin-top: 15px;
+  margin-top: 5px;
   left: -9999px;
   opacity: 0;
   transition: opacity 1s;
@@ -26,11 +27,11 @@
 .dropdown__menu::after {
   content: '';
   position: absolute;
-  border: 15px solid transparent;
+  border: 10px solid transparent;
   border-bottom-color: #EDEDED;
   border-top-width: 0px;
-  top: -15px;
-  right: 30px;
+  top: -10px;
+  right: 43px;
 }
 .dropdown__menu::before {
   content: '';
@@ -43,5 +44,3 @@
 .dropdown__days {
   font-weight: bold;
 }
-
-  

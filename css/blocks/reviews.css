@@ -45,6 +45,8 @@
 .review__tag {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 .tag {
   padding: 10px 17px;

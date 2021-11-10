@@ -1,10 +1,10 @@
 .socials {
-  margin-right: 74px;
+  margin-right: 70px;
   display: flex;
   justify-content: space-between;
 }
 .socials__item {
-  margin-right: 9px;
+  margin-right: 13px;
 }
 .socials__item:last-child {
   margin-right: 0;
