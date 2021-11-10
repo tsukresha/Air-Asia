@@ -35,3 +35,6 @@
   height: 235px;
   color: #666666;
 }
+.form__input--textarea {
+  resize: none;
+}

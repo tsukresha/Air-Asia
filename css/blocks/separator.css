@@ -1,5 +1,6 @@
 .separator__container {
-  background: url("../../img/couple.png") right 415px bottom 0px no-repeat
+  background: url("../../img/couple.png") right 30px bottom no-repeat;
+  padding: 120px 0;
 }
 .separator {
   background: #F4F5F5 url("../../img/Rectangle.jpg") center /cover no-repeat;
