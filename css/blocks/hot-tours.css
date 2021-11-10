@@ -79,6 +79,7 @@
  border-radius: 30px;
  padding: 18px 29px;
  text-transform: uppercase;
+ transition: all 0.5s;
 }
 .hot-tours__btn-wrapper {
  display: flex;
@@ -88,5 +89,4 @@
 .hot-tours__btn:hover {
  background: #FF0000;
  color: #FFFFFF;
- transition: all 0.5s;
 }

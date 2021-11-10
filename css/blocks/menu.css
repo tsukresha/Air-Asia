@@ -8,10 +8,10 @@
   font-size: 14px;
   color:#FFF;
   text-decoration: none;
+  transition: color 0.5s;
 }
 .menu__link:hover {
   color: #DA0100;
-  transition: color 0.5s;
 }
 .menu__item:last-child {
   margin-right: 0;

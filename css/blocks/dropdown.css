@@ -1,16 +1,16 @@
 .dropdown__title {
   font-size: 13px;
   position: relative;
-  text-decoration: underline;  
+  text-decoration: underline;
+  transition: color 0.5s;
 }
 .dropdown__title:hover {
   color: #DA0100;
-  transition: color 0.5s;
   cursor: pointer;
 }
 .dropdown__schedule-wrap:hover .dropdown__menu {
   opacity: 1;
-  left: 0;
+  right: 0;
 }
 .dropdown__menu {
   padding: 15px 19px 15px 19px;
@@ -20,7 +20,8 @@
   position: absolute;
   border-radius: 5px;
   margin-top: 5px;
-  left: -9999px;
+  left: initial;
+  right: 0;
   opacity: 0;
   transition: opacity 1s;
 }

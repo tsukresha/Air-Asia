@@ -8,10 +8,10 @@
   padding: 17px 39px;
   border-radius: 30px;
   display: inline-block;
+  transition: background 0.5s;
 }
 .btn:hover {
   background: #EB1209;
-  transition: background 0.5s;
 }
 .btn--service {
   background: #FFF;
@@ -24,11 +24,11 @@
   padding: 17px 39px;
   border-radius: 30px;
   display: inline-block;
+  transition: all 0.5s;
 }
 .btn--service:hover {
   background: #F5170E;
   color: #FFFFFF;
-  transition: all 0.5s;
 }
 .btn--page--welcome {
   padding: 17px 57px;
@@ -39,10 +39,10 @@
   border: none;
   margin-right: 17px;
   cursor: pointer;
+  transition: background 0.5s;
 }
 .btn--color--black:hover {
   background: #F5170E;
-  transition: background 0.5s;
 }
 .btn--color--red {
   border: none;

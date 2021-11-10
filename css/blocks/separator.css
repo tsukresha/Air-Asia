@@ -1,7 +1,7 @@
 .separator {
   background: #F4F5F5;
   background: url("../../img/couple.png") right 415px bottom 0px no-repeat,
- url("../../img/Rectangle.jpg") center /cover no-repeat;
+  url("../../img/Rectangle.jpg") center /cover no-repeat;
   min-height: 349px;
   display: flex;
   flex-direction: column;

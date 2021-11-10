@@ -17,11 +17,6 @@
   background:#FFF;
   color: #F5170E;
 }
-.pager__link:hover {
-  background:#FFF;
-  color: #F5170E;
-  transition: all 0.5s;
-}
 .pager__link {
   display: block;
   width: 34px;
@@ -31,6 +26,11 @@
   text-decoration: none;
   font-weight: bold;
   line-height: 34px;
+  transition: all 0.5s;
+}
+.pager__link:hover {
+  background:#FFF;
+  color: #F5170E;
 }
 .pager--theme--red {
   color: #000000;

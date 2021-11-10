@@ -6,10 +6,10 @@
   font-size: 14px;
   color: #9A9A9A;
   margin-right: 6px;
+  transition: color 0.5s;
 }
 .breadcrumbs__link:hover {
   color: #DA0100;
-  transition: color 0.5s;
 }
 .breadcrumbs__item {
   display: flex;
